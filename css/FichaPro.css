@@ -2,21 +2,55 @@
     padding-top: 5%;
     
 }
+.contenedor1{
 
+
+}
 
 .parte1{
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-bottom: 5%;
+padding-left: 15%;
+padding-right: 15%;
 }
 .parte2{
-    
-    width: 96%;
-max-width: 960px;
-margin: 0 auto;
+    padding-left: 15%;
+padding-right: 15%;
+
+
+
+
+
+
+
 }
+
 .imgP {
-width: 100%;
+width: auto;
 height: auto;
+}
+
+
+.cont2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    background-color: aqua;
+}
+
+.parte3{
+    padding-top: 5%;
+    padding-left: 15%;
+    justify-content: center;
+    display: inline-block;
+    width: 30%;
+
+}
+
+.parte4{
+    display: flex;
+  justify-content: center;
+    padding-bottom: 5%;
+    display: inline-block;
+    width: 50%;
+    padding-left: 25%;
 }
 
