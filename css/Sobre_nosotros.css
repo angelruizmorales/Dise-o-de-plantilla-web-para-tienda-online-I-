@@ -1,0 +1,43 @@
+.tamaño{
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: inline-block;
+}
+.fondo{
+    background-color: #f1f1f1;
+    display: inline-block;
+}
+
+.positionta{
+    position: relative;
+    top: 300px;
+    width: 600px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f1f1f1;
+    display: inline-block;
+}
+.colort1{
+    color:#9b99b0;
+    display: inline-block;
+} 
+.colort2{
+    color:#000000fd;
+    display: inline-block;
+}
+.img1{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    display: inline-block;
+}
+.img2{
+    position: fixed;
+    top: 900px;
+    left: 100px;
+    display: inline-block;
+}
