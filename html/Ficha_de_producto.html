@@ -16,14 +16,33 @@
         <i class="fas fa-bars"></i> 
         </label>
         <a href="a" class="enlace">
-            <img src="##" alt="" class="logo">
+           
+            <img src="https://www.caetanomotorsmalaga.es/wp-content/themes/caetanomotorsmalaga/imagenes/logos/logo-peugeot.svg" alt="" class="logo">
+            <img src="https://www.caetanomotorsmalaga.es/wp-content/themes/caetanomotorsmalaga/imagenes/logos/caetano-motors-malaga--fondo-oscuro--mobile.png" alt="" class="logo">
+            
         </a>
         <ul>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Ficha de producto</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a class="active" href="#">Ficha de producto</a></li>
+            <li><a href="Sobre_nosotros.html">Sobre nosotros</a></li>
+            <li><a href="Ficha_de_producto.html">Ficha de producto</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a id="btn-abrir-popup" class="btn-abrir-popup active" href="#">Login</a></li>
         </ul>
     </nav>
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Login</h3>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="email" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña" class="pass">
+                </div>
+                <input type="submit" class="btn-submit" value="Acceder">
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="/js/Login.js"></script>
+   
 </body>
 </html>
