@@ -1,0 +1,31 @@
+#contenedor{
+text-align: left;
+width: 100%;
+margin: auto;
+}
+
+#lateral {
+    width: 80%;  
+    background-color: #CCCCCC;  
+    float:right;
+}
+
+
+#principal {
+    width: 30%;
+    float: left;
+    background-color: #FFFFFF;
+    border:#000000 1px solid;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.imgtest{
+    width: auto;
+height: 25%;
+}
