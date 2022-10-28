@@ -1,0 +1,35 @@
+.cuerpo{
+    padding-top: 5%;
+    
+}
+
+
+.parte1{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+.parte2{
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+img {
+    
+    width: 30vw;
+    width: 100%;
+    height: auto;
+}
+.img1{
+    display: inline-block;
+}
+.img2{
+    display: inline-block;
+}
+.img3{
+    display: inline-block;
+}
