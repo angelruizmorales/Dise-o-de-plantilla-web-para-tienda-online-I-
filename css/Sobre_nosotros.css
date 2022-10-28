@@ -41,12 +41,12 @@
     left: 100px;
     display: inline-block;
 }
-.parte2{
+.responsive1{
 width: 96%;
 max-width: 960px;
 margin: 0 auto;
 }
-.imgP {
+.responsive2{
 width: 100%;
 height: auto;
 }
