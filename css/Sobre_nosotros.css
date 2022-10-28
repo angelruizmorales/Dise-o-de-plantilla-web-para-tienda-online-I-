@@ -31,8 +31,8 @@
 }
 .img1{
     position: fixed;
-    bottom: 100px;
-    right: 100px;
+    bottom: 300px;
+    right: 300px;
     display: inline-block;
 }
 .img2{
@@ -41,3 +41,11 @@
     left: 100px;
     display: inline-block;
 }
+.parte2{
+width: 96%;
+max-width: 960px;
+margin: 0 auto;
+}
+.imgP {
+width: 100%;
+height: auto;
