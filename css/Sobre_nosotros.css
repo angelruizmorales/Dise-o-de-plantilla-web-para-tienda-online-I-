@@ -10,7 +10,14 @@ body{
     padding-bottom: 40px;
     background-color: #f1f1f1;
 }
+.espaciado2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    color: white;
 
+}
 .izq{
     
     padding-top: 7%;
@@ -20,6 +27,7 @@ body{
     width: 50%;
  height: 40vh;
  text-align: center;
+ 
 }
 .sombreado{
     padding-top: 40px;
@@ -33,16 +41,17 @@ body{
     background-size: cover;
     background-position: center;
     width:100%;
-height: 50vh;
+height: 40vh;
 }
 
 
 .der{
+    
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
     width: 50%;
-    height: 50vh;
+    height: 40vh;
     
 }
 
