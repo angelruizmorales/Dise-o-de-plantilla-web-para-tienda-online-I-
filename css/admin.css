@@ -30,6 +30,18 @@ body{
     min-height: 100vh;
     background-color: var(--primary-color);
 }
+.form2{
+    width: 340px;
+    height: 440px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(300px - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(450px - 40px);
+    box-sizing: border-box;
+    
+}
 body.dark{
     --primary-color: #3A3B3C;
     --panel-color: #242526;
