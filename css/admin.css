@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.eliminar{
+    background-color: #c10b0b59;
+}
 :root{
     /* ===== Colors ===== */
     --primary-color: #0E4BF1;
