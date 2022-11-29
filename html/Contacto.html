@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body><nav>
+    <input type="checkbox" id="check">
+    <label for="check"class="checkbtn">
+    <i class="fas fa-bars"></i> 
+    </label>
+    <a href="a" class="enlace">
+       
+        <img src="https://www.caetanomotorsmalaga.es/wp-content/themes/caetanomotorsmalaga/imagenes/logos/logo-peugeot.svg" alt="" class="logo">
+        <img src="https://www.caetanomotorsmalaga.es/wp-content/themes/caetanomotorsmalaga/imagenes/logos/caetano-motors-malaga--fondo-oscuro--mobile.png" alt="" class="logo">
+        
+    </a>
+    <ul>
+        <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="Sobre_nosotros.html">Sobre nosotros</a></li>
+            <li><a href="Ficha_de_producto.html">Ficha de producto</a></li>
+            <li><a href="Lista_producto.html">Lista producto</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a id="btn-abrir-popup" class="btn-abrir-popup active" href="#">Login</a></li>
+    </ul>
+</nav>    
+<div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Login</h3>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="email" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña" class="pass">
+                </div>
+                <input type="submit" class="btn" value="Acceder">
+                <a href="admin.html"> <button type="button" class="btn">Admin</button></a>
+            </form>
+        </div>
+    </div>
+    
+    
+    <form class="form">
+        <h2>Contacto</h2>
+        <div class="parrafo">
+        <p type="Nombre:"><input class="input" placeholder="Nombre completo..."></p>
+        <p type="Email:"><input class="input" placeholder="email..."></p>
+        <p type="Mensaje:"><input class="input" placeholder="Mensaje..."></p>
+        </div>
+        <button class="button">Enviar</button>
+    
+    </form>
+    <div class="espaciado1">
+    <div class="footer">
+        <div class="test1">
+            <img class="imgfooter" src="https://www.caetanomotorsmalaga.es/wp-content/themes/caetanomotorsmalaga/imagenes/logos/logo-caetano-retail-es--ffffff.svg"></div>
+        <div class="textFot">
+            <h5>© 2022 Caetano Motors Málaga | Todos los derechos reservados.</h5>
+            <h6>Concesionario Oficial Peugeot. Coches nuevos, de ocasión y taller.</h6>
+            <h7>Aviso legal - Términos de Servicio - Política de privacidad - Política de cookies - Mapa web - Powered by Maxterauto</h7></div>
+    
+            <div class="test2">
+                <i class="imgfooter2 fa-brands fa-square-facebook"></i>
+                <i class="imgfooter2 fa-brands fa-instagram"></i>
+                <i class="imgfooter2 fa-brands fa-youtube"></i>
+            </div>
+    </div>
+    </div>
+    
+    <script src="/js/Login.js"></script>
+   
+</body>
+</html>

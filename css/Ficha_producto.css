@@ -1,0 +1,103 @@
+.cuerpo{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    background-color: #f1f1f1;
+}
+.espaciadoabajo{
+    padding-bottom: 2%;
+}
+.espaciadoarriba{
+    padding-top: 2%;
+}
+.espaciado{
+    padding-top: 5%;
+}
+.parte1{
+    
+    background-color: #f1f1f1;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+    width: 150%;
+ height: 40vh;
+ text-align: center;
+ 
+}
+.parte4{
+    
+    background-color: #f1f1f1;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+    width: 150%;
+ height: 40vh;
+ text-align: left;
+ 
+}
+.parte3{
+   
+   
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    
+}
+ 
+
+.sombreado{
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    background-color: #f1f1f1;
+}
+.imgficha{
+    background: url(/img/h-42-115-1901-10427-1556557859.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+height: 40vh;
+}
+.video{
+    background: url(https://www.youtube.com/embed/RX0t6cMfdXk);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+height: 40vh;
+}
+.textoabajo{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.espaciadoabajo{
+    padding-bottom: 2%;
+}
+
+.parte2{
+   
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.contenedor{
+    width: 100%;
+    height: 70%;
+    
+    display: flex;
+}
+
+
